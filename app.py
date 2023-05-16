@@ -25,7 +25,7 @@ app = Flask(__name__)
 # Homepage 
 @app.route("/")
 def homepage():
-    return """Welcome to Leah's climate app. Please select from the below:
+    return """Welcome to Rashed's climate app. Please select from the below:
     <br><a> href="/api/v1.0/precipitation">Precipitation (JSON)</a>
     <br><a> href="/api/v1.0/stations">Stations (JSON)</a>
     <br><a> href="/api/v1.0/<start>">Start (JSON)</a>
